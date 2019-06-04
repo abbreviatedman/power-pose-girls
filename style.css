@@ -1,48 +1,58 @@
 #main {
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-  }
-  
-  .problem-1 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  
-  #problem-3 {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: stretch;
-  }
-  
-  
-  img {
-    height: 500px;
-  }
-  
-  .problem-2 {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }
-  
-  
-  p {
-    padding: 20px;
-  }
-  
-  #problem-3{
-    display: flex;
-    align-items: flex-end;
-  }
-  
-  div.pictures {
-    height: 800px;
-  }
-  
-  .banner {
-    display: flex;
-    justify-content: center;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.problem-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#problem-3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: stretch;
+}
+
+.problem-2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+
+p {
+  padding: 20px;
+}
+
+#problem-3 {
+  display: flex;
+  align-items: flex-end;
+}
+
+#problem-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#problem-5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+div.pictures {
+  height: 800px;
+}
+
+img {
+  height: 400px;
+}
