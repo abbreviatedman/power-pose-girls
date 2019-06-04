@@ -10,7 +10,7 @@
     align-items: center;
   }
   
-  #powerpuff-girls-row {
+  #problem-3 {
     display: flex;
     justify-content: space-evenly;
     align-content: stretch;
@@ -21,23 +21,18 @@
     height: 500px;
   }
   
-  .alone {
+  .problem-2 {
     display: flex;
     width: 100%;
     justify-content: center;
-    
-  }
-  
-  .alone img{
-    /* align-self: center; */
   }
   
   
-  p{
+  p {
     padding: 20px;
   }
   
-  #powerpuff-girls-row div{
+  #problem-3{
     display: flex;
     align-items: flex-end;
   }
